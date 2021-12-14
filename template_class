@@ -1,0 +1,6 @@
+class {{nome_classe}} {
+{% for str in strs %}	String {{str}}; 
+{% endfor %}
+{% for classe in c %}	ArrayList<{{classe}}> {{alt_name}}; 
+{% endfor %}
+}
